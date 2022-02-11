@@ -3,13 +3,13 @@
 return array(
     'view_manager' => array(
         'template_path_stack' => array(
-            'laminasuser' => __DIR__ . '/../view',
+            'LaminasUser' => __DIR__ . '/../view',
         ),
     ),
 
     'router' => array(
         'routes' => array(
-            'laminasuser' => array(
+            'laminasUser' => array(
                 'type' => 'Literal',
                 'priority' => 1000,
                 'options' => array(
